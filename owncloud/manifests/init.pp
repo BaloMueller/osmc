@@ -1,5 +1,4 @@
-class owncloud (
-) {
+class owncloud () {
 
   # declare all parameterized classes
   class { 'owncloud::params': }
