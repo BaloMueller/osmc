@@ -1,0 +1,22 @@
+{
+  "name": "newrelic_sysmond",
+  "version": "0.1.0",
+  "author": "balomueller",
+  "license": "Apache-2.0",
+  "summary": "A module for installing newrelic_sysmond",
+  "source": "https://github.com/balomueller/misc/osmc/newrelic_sysmond",
+  "issues_url": "https://github.com/balomueller/misc",
+  "tags": ["debian", "newrelic", "newrelic_sysmond"],
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"Debian",
+      "operatingsystemrelease": [
+        "7.0",
+        "8.0"
+      ]
+    }
+  ],
+  "dependencies": [
+    { "name": "puppetlabs/apt", "version_requirement": ">= 0.0.0" }
+  ]
+}
