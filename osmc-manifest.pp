@@ -11,8 +11,8 @@ package { ['vim', 'htop', 'build-essential', 'git', 'iftop', 'nload']:
 	ensure => "installed"
 }
 
-class {'tor':
-}
+# class {'tor':
+# }
 
 # Newrelic doesn't exist for Raspberry yet
 # class { 'newrelic_sysmond':
